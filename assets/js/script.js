@@ -1,6 +1,6 @@
 /**
  * Modern Terminal Portfolio JavaScript
- * Interactive features for Edison Uwamungu's portfolio
+ * Interactive features for Zephylin Dusengimana's portfolio
  */
 
 // DOM Elements
@@ -414,7 +414,7 @@ if (contactForm) {
     const message = formData.get('message');
     
     // Create mailto link
-    const mailtoLink = `mailto:edison.u@eagles.oc.edu?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+    const mailtoLink = `mailto:dzephylin@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
     
     // Open email client
     window.location.href = mailtoLink;
@@ -778,7 +778,7 @@ images.forEach(img => imageObserver.observe(img));
 
 // Console welcome message
 console.log(`
-%c🚀 Welcome to Edison Uwamungu's Terminal Portfolio!
+%c🚀 Welcome to Zephylin Dusengimana's Terminal Portfolio!
 %c
 %cThis portfolio was built with modern web technologies:
 %c• HTML5 & CSS3 with Terminal/VS Code inspired design
@@ -788,9 +788,9 @@ console.log(`
 %c
 %cFeel free to explore the code and reach out if you have any questions!
 %c
-%cContact: edison.u@eagles.oc.edu
-%cGitHub: https://github.com/iamedisonu
-%cLinkedIn: https://www.linkedin.com/in/iamedisonu/
+%cContact: dzephylin@gmail.com
+%cGitHub: https://github.com/zephylin
+%cLinkedIn: https://www.linkedin.com/in/zephylin-d/
 %c
 %cType 'help' for available commands (just kidding, this is a portfolio!)
 `,

@@ -2,14 +2,14 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Edison Uwamungu
-Edison Uwamungu
-Tech Entusiastic
+alt = Zephylin Dusengimana
+Zephylin Dusengimana
+Software Developer & AI/ML Engineer
 
 Show Contacts
 
 Email
-me@iamedison.live
+dzephylin@gmail.com
 
 Phone
 +250785971157

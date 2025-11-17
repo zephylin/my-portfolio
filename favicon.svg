@@ -11,7 +11,7 @@
   <circle cx="14" cy="4" r="1.5" fill="#3fb950"/>
   
   <!-- Terminal prompt -->
-  <text x="4" y="18" font-family="monospace" font-size="8" fill="#7c3aed" font-weight="bold">edison@</text>
+  <text x="4" y="18" font-family="monospace" font-size="8" fill="#7c3aed" font-weight="bold">zephylin@</text>
   <text x="24" y="18" font-family="monospace" font-size="8" fill="#58a6ff">~$</text>
   
   <!-- Cursor -->

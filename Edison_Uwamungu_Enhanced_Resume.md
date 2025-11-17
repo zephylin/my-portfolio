@@ -1,15 +1,15 @@
-# Edison Uwamungu
-**Computer Science with AI Student | Cybersecurity & Machine Learning Specialist**
+# Zephylin Dusengimana
+**Software Developer & AI/ML Engineer**
 
 ---
 
 ## Contact Information
-- **Email:** edison.u@eagles.oc.edu
-- **Phone:** +1 (405) 856-5948
+- **Email:** dzephylin@gmail.com
+- **Phone:** +1 (405) 856-8895
 - **Location:** Oklahoma City, OK
-- **LinkedIn:** [linkedin.com/in/iamedisonu](https://www.linkedin.com/in/iamedisonu/)
-- **GitHub:** [github.com/iamedisonu](https://github.com/iamedisonu)
-- **Portfolio:** [edisonuwamungu.com](https://edisonuwamungu.com)
+- **LinkedIn:** [linkedin.com/in/zephylin-d](https://www.linkedin.com/in/zephylin-d/)
+- **GitHub:** [github.com/zephylin](https://github.com/zephylin)
+- **Portfolio:** [zephylindusengimana.com](https://zephylindusengimana.com)
 
 ---
 

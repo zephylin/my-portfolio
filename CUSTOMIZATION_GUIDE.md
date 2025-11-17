@@ -8,7 +8,7 @@ Welcome! This guide will help you customize this portfolio template to make it y
 Update these in `index.html`:
 
 #### Meta Tags & SEO (Lines 8-166)
-- **Title** (Line 8): Change "Edison Uwamungu" to your name
+- **Title** (Line 8): Change "Zephylin Dusengimana" to your name
 - **Description** (Line 11): Update with your own description
 - **Keywords** (Line 12): Add your relevant keywords
 - **Author** (Line 13): Your name

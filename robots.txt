@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://edisonuwamungu.com/sitemap.xml
+Sitemap: https://zephylindusengimana.com/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
