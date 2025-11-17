@@ -152,7 +152,8 @@ filterBtns.forEach(btn => {
     projectItems.forEach((item, index) => {
       const itemCategory = item.getAttribute('data-category');
       
-      if (filterValue === 'all' || itemCategory === filterValue) {
+      // Check if category includes the filter value (supports multi-value categories like "ai web")
+      if (filterValue === 'all' || itemCategory.includes(filterValue)) {
         visibleItems.push({ item, index });
       } else {
         hiddenItems.push({ item, index });
@@ -225,7 +226,7 @@ function initPortfolioSearch() {
       const itemCategory = item.getAttribute('data-category');
       
       const matchesSearch = title.includes(searchTerm) || category.includes(searchTerm);
-      const matchesFilter = currentFilter === 'all' || itemCategory === currentFilter;
+      const matchesFilter = currentFilter === 'all' || itemCategory.includes(currentFilter);
       
       if (matchesSearch && matchesFilter) {
         item.style.display = 'block';
