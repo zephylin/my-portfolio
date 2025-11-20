@@ -12,7 +12,7 @@ Follow these steps in order to quickly personalize your portfolio:
 
 ## Step 2: Replace Your Photo
 **File:** `index.html` (Line 219)
-**Action:** Replace `assets/images/my-avatar.png` with your photo
+**Action:** Replace `assets/images/my-avatar.JPG` with your photo
 - Recommended size: 120x120px or square
 - Format: PNG or JPG
 

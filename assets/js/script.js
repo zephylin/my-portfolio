@@ -18,7 +18,7 @@ const loading = document.getElementById('loading');
 window.addEventListener('load', () => {
   // Preload critical images
   const criticalImages = [
-    './assets/images/my-avatar.png',
+    './assets/images/my-avatar.JPG',
     './assets/images/logo.svg'
   ];
   
@@ -59,17 +59,22 @@ window.addEventListener('load', () => {
   }, 3000);
 });
 
-// Sidebar Toggle
+// Sidebar Contacts Toggle (email, phone, location only)
 if (sidebarBtn) {
+  const contactsSection = document.getElementById('contacts-section');
+  
   sidebarBtn.addEventListener('click', () => {
-    sidebar.classList.toggle('active');
-    const isActive = sidebar.classList.contains('active');
-    sidebarBtn.innerHTML = isActive 
-      ? '<span>Hide Contacts</span><ion-icon name="chevron-up" aria-hidden="true"></ion-icon>'
-      : '<span>Show Contacts</span><ion-icon name="chevron-down" aria-hidden="true"></ion-icon>';
-    
-    // Update ARIA attributes
-    sidebarBtn.setAttribute('aria-expanded', isActive);
+    if (contactsSection) {
+      contactsSection.classList.toggle('active');
+      const isActive = contactsSection.classList.contains('active');
+      
+      sidebarBtn.innerHTML = isActive 
+        ? '<span>Hide Contacts</span><ion-icon name="chevron-up" aria-hidden="true"></ion-icon>'
+        : '<span>Show Contacts</span><ion-icon name="chevron-down" aria-hidden="true"></ion-icon>';
+      
+      // Update ARIA attributes
+      sidebarBtn.setAttribute('aria-expanded', isActive);
+    }
   });
 }
 
