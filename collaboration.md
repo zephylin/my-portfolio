@@ -1,1 +1,0 @@
-## Collaboration Essentials on Git

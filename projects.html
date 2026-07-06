@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects — Zephylin Dusengimana</title>
+  <meta name="description" content="Portfolio of projects by Zephylin Dusengimana including AI/ML systems, full-stack web applications, and backend engineering.">
+  <link rel="icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <div id="nav-placeholder"></div>
+
+  <main class="section" style="padding-top: calc(var(--nav-height) + var(--space-2xl));">
+    <div class="container">
+      <h1 class="section-title">Projects</h1>
+      <p class="section-subtitle">
+        A selection of projects demonstrating my work in AI/ML, full-stack development, and backend engineering.
+      </p>
+
+      <!-- Filter Buttons -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ai">AI/ML</button>
+        <button class="filter-btn" data-filter="web">Full-Stack</button>
+        <button class="filter-btn" data-filter="backend">Backend</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid" id="projects-grid">
+
+        <!-- Project 1: EagleAI -->
+        <div class="project-card" data-category="ai web">
+          <span class="project-label">Featured</span>
+          <h3>EagleAI — Career Intelligence Platform</h3>
+          <p class="project-description">
+            Designed and built a full-stack AI career guidance web app with ML-based 
+            recommendation algorithms. Features include personalized career path suggestions, 
+            skill gap analysis, and job market insights.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">React</span>
+            <span class="project-tag">FastAPI</span>
+            <span class="project-tag">ML</span>
+            <span class="project-tag">Vercel</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/zephylin/EagleAI.git" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Project 2: RAG Chatbot -->
+        <div class="project-card" data-category="ai">
+          <h3>RAG Chatbot</h3>
+          <p class="project-description">
+            Built a Retrieval-Augmented Generation chatbot using Hugging Face models, 
+            LangChain for orchestration, and FAISS for vector similarity search. 
+            Deployed as an interactive Streamlit application.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">LangChain</span>
+            <span class="project-tag">FAISS</span>
+            <span class="project-tag">HuggingFace</span>
+            <span class="project-tag">Streamlit</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/zephylin/Chat-bot.git" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Project 3: Workflow Management Platform -->
+        <div class="project-card" data-category="backend">
+          <h3>Workflow Management Platform</h3>
+          <p class="project-description">
+            Designed a backend workflow management system with RESTful APIs supporting teams, 
+            projects, and 5+ task state transitions. Implemented JWT authentication, role-based 
+            access control, Redis caching (reducing API response time ~40%), and Docker deployment.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Java</span>
+            <span class="project-tag">Spring Boot</span>
+            <span class="project-tag">PostgreSQL</span>
+            <span class="project-tag">Redis</span>
+            <span class="project-tag">Docker</span>
+            <span class="project-tag">GitHub Actions</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/zephylin/Workflow-Management-Platform.git" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Project 4: Attendance System -->
+        <div class="project-card" data-category="ai">
+          <h3>Automated Attendance Management System</h3>
+          <p class="project-description">
+            Developed a facial recognition-based attendance system using InsightFace. 
+            Collected and augmented training images, integrated Redis for real-time 
+            data handling, and built a Streamlit interface with WebRTC support.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">InsightFace</span>
+            <span class="project-tag">Redis</span>
+            <span class="project-tag">Streamlit</span>
+            <span class="project-tag">WebRTC</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/zephylin/Attendance-Management-System-using-Insightface" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Project 5: Email Spam Detection -->
+        <div class="project-card" data-category="ai">
+          <h3>Email Spam Detection System</h3>
+          <p class="project-description">
+            Built a machine learning model to classify emails as spam or ham using 
+            various ML algorithms. Implemented feature extraction, model training, 
+            and evaluation with precision/recall metrics.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Scikit-learn</span>
+            <span class="project-tag">Jupyter</span>
+            <span class="project-tag">NLP</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/zephylin/Email-Spam-Detection" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Project 6: Point of Sale System -->
+        <div class="project-card" data-category="backend">
+          <h3>Point of Sale (POS) System</h3>
+          <p class="project-description">
+            Complete retail management system with inventory tracking, sales processing, 
+            receipt generation, and transaction management. Built with enterprise Java patterns.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Java</span>
+            <span class="project-tag">Enterprise Application</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/zephylin/Point-of-Sale-System" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Project 7: Finance Digitalization -->
+        <div class="project-card" data-category="backend">
+          <h3>Finance Digitalization System</h3>
+          <p class="project-description">
+            Comprehensive finance management system for digitalizing financial operations. 
+            Includes transaction management, reporting, and data processing features.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Java</span>
+            <span class="project-tag">Enterprise Application</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/zephylin/Finance-Digitalization-System" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+
+        <!-- Project 8: Automated PACMAN -->
+        <div class="project-card" data-category="ai">
+          <h3>Automated PACMAN Game</h3>
+          <p class="project-description">
+            Implemented AI agents for the classic PACMAN game using search algorithms 
+            and decision-making strategies. Demonstrates understanding of AI fundamentals 
+            including pathfinding and game tree search.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">AI Agents</span>
+            <span class="project-tag">Search Algorithms</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/zephylin/Automated-PACMAN-game" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="./assets/js/main.js"></script>
+  <script>
+    initPage('projects');
+
+    // ============================================
+    // PROJECT FILTERING
+    // ============================================
+    // When a filter button is clicked, show/hide
+    // project cards based on their data-category attribute.
+
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const projectCards = document.querySelectorAll('.project-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Update active button
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.getAttribute('data-filter');
+
+        projectCards.forEach(card => {
+          const category = card.getAttribute('data-category');
+          // Show if filter is "all" OR if the card's category includes the filter value
+          if (filter === 'all' || category.includes(filter)) {
+            card.style.display = '';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
