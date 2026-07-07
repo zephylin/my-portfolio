@@ -22,9 +22,9 @@
 // Replace these with your actual EmailJS credentials
 // You get these from your EmailJS dashboard after setup
 
-const EMAILJS_PUBLIC_KEY = 'YOUR_PUBLIC_KEY';    // From EmailJS > Account > API Keys
-const EMAILJS_SERVICE_ID = 'YOUR_SERVICE_ID';   // From EmailJS > Email Services
-const EMAILJS_TEMPLATE_ID = 'YOUR_TEMPLATE_ID'; // From EmailJS > Email Templates
+const EMAILJS_PUBLIC_KEY = '73M6HPGsRpu6tF7GV';
+const EMAILJS_SERVICE_ID = 'service_1dmshjj';
+const EMAILJS_TEMPLATE_ID = 'template_ys4fue9';
 
 // Initialize EmailJS with your public key
 if (typeof emailjs !== 'undefined') {
