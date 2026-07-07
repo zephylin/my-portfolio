@@ -462,19 +462,22 @@ button {
 .timeline-description {
   color: var(--color-text-secondary);
   line-height: 1.7;
+  margin-left: var(--space-md);   /* Indent the whole bullet block */
+  margin-top: var(--space-sm);
 }
 
 .timeline-description li {
-  margin-bottom: var(--space-xs);
-  padding-left: var(--space-md);
+  margin-bottom: var(--space-sm);
+  padding-left: var(--space-lg);  /* More space for the bullet marker */
   position: relative;
 }
 
 .timeline-description li::before {
   content: '•';
   position: absolute;
-  left: 0;
+  left: var(--space-xs);
   color: var(--color-primary);
+  font-weight: 700;
 }
 
 /* Skills Grid */
